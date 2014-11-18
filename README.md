@@ -1,7 +1,12 @@
 eAcademy
 ========
 To run the app, type 'DEBUG=academy ./bin/www' in Terminal. 
+========
+This application was built using Node.js, ExpressJS, EJS Template, MongoDB & Bootstrap 3.
 
-If you are on Windows machine, issue below two commands 
-set DEBUG=my-application
+<h3>How to run</h3>
+Issue command 'DEBUG=eArtGallery ./bin/www' from Terminal.
+
+If you are on windows machine, issue below two commands <br>
+set DEBUG=my-application <br>
 node ./bin/www 
