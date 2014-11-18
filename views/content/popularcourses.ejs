@@ -1,0 +1,31 @@
+        <h2>Most Popular Courses</h2>
+        <div class="row">
+
+            <% for(var i=0; i < pageData.popular.length ; i++) { %>
+            <div class="col-sm-4">
+                <img class="img-circle img-responsive img-center img-icon-lg" src="/images/<%=pageData.popular[i].icon %>" alt="">
+                <h4><strong><%=pageData.popular[i].title %></strong></h4>
+                <p><%=pageData.popular[i].summary %></p>
+            </div>
+
+            <% } %>
+
+            <!--
+            <div class="col-sm-4">
+                <img class="img-circle img-responsive img-center img-icon-lg" src="/images/nodejs.png" alt="">
+                <h4><strong>Node.js for beginers</strong></h4>
+                <p>These marketing boxes are a great place to put some information. These can contain summaries of what the company does, promotional information, or anything else that is relevant to the company. These will usually be below-the-fold.</p>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-circle img-responsive img-center img-icon-lg" src="/images/mongodb.png" alt="">
+                <h4><strong>Working with MongoDB</strong></h4>
+                <p>The images are set to be circular and responsive. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-circle img-responsive img-center img-icon-lg" src="/images/expressjs.png" alt="">
+                <h4><strong>ExpressJS up and running</strong></h4>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+            </div> -->
+        </div>
+        <!-- /.row -->
+        <hr>

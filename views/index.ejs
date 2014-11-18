@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<% include template/head %>
+
+<body>
+    <% include template/header %>
+   
+
+
+
+    <!-- Page Content -->
+    <section class="container">
+
+        <hr>
+
+        <section class="row">
+           <% include content/whoarewe %>
+           <% include content/upcoming %>
+            
+        </section>
+        <!-- /.row -->
+        <hr>
+        <!-- Popular courses -->
+        <section>
+            <% include content/popularcourses %>
+        </section>
+        <!-- Popular courses -->
+
+
+        <!-- All courses -->
+        <section class="sec-all-course">
+            <% include content/browsecourses %>
+        </section>
+        <!-- All courses -->
+
+
+
+     </section>
+    <!-- /.container --> <!-- Page Content -->
+
+
+    <!-- Footer -->
+     <% include template/footer %>
+        
+
+    <% include template/jsdefaults %>
+   
+
+</body>
+
+</html>
